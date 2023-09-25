@@ -1,0 +1,39 @@
+.products-table td{
+  max-width: 150px;
+}
+.responsive-table{
+  overflow-x: auto;
+}
+.w-fit{
+  width: fit-content;
+}
+.cat-holder{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.cat-holder > button{
+  flex: 1;
+  border: none;
+  margin: 5px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.spin {
+  font-size: 30px;
+  animation: spin 1s infinite;
+  -webkit-animation: spin 1s infinite;
+}
+@keyframes spin{
+  to{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+}
